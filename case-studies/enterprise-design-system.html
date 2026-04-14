@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Enterprise design system at Nike — Thanushree Uppoor, sole design lead: 20+ apps, tokens, 60+ components, Figma + React, WCAG 2.1 AA bar, pilots, governance, adoption and efficiency outcomes."
+    />
+    <title>Enterprise design system — Thanushree Uppoor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="page page--case">
+    <div class="grain" aria-hidden="true"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="logo" href="../index.html" aria-label="Thanushree Uppoor home">
+          <span class="logo-mark" aria-hidden="true">TU</span>
+          <span>Thanushree</span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav id="site-nav" class="site-nav" data-nav>
+          <ul>
+            <li><a href="../index.html#work">Work</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a class="nav-cta" href="../index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <header class="case-hero">
+        <div class="container">
+          <div class="case-hero-card">
+            <div class="case-hero-media" aria-hidden="true">
+              <img
+                src="https://images.unsplash.com/photo-1634012965565-79f6b4c0f946?auto=format&fit=crop&w=2000&q=80"
+                alt=""
+                width="2000"
+                height="1200"
+                fetchpriority="high"
+              />
+            </div>
+            <div class="case-hero-inner">
+              <nav class="breadcrumb">
+                <a href="../index.html#work">Work</a> / Enterprise design system
+              </nav>
+              <h1 class="case-title">Enterprise design system</h1>
+              <p class="case-lede">
+                Scalable design system for Nike’s internal platform ecosystem—tokens,
+                components, documentation, and governance so 20+ applications could ship
+                consistent, accessible product faster.
+              </p>
+              <div class="case-meta">
+                <div class="meta-block">
+                  <span class="meta-label">Role</span>
+                  <span class="meta-value">Design system lead</span>
+                </div>
+                <div class="meta-block">
+                  <span class="meta-label">Scope</span>
+                  <span class="meta-value">20+ applications</span>
+                </div>
+                <div class="meta-block">
+                  <span class="meta-label">Users</span>
+                  <span class="meta-value">10,000+ employees</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <article class="case-body container">
+        <aside class="case-role" data-reveal>
+          <span class="case-role-label">My role</span>
+          <p>
+            I was the <strong>sole designer</strong> for UX and UI on this work—discovery through
+            delivery and design QA—alongside product, engineering, and stakeholders as
+            described later in this case study.
+          </p>
+        </aside>
+        <aside class="case-tldnr" data-reveal>
+          <span class="case-tldnr-label">TL;DR</span>
+          <p>
+            Sole UX/UI design lead for Nike’s internal design system across <strong>20+
+            applications</strong> and <strong>10,000+ employees</strong>. I shipped tokens,
+            60+ components, paired Figma + React libraries, documentation, and
+            governance—then scaled adoption through pilots and contribution rules. Headline
+            results: <strong>~50% faster</strong> design–dev handoff, <strong>~85%
+            adoption</strong> among platform teams within six months, <strong>~60% →
+            ~95%</strong> accessibility compliance, and a large estimated savings in
+            duplicated engineering effort.
+          </p>
+        </aside>
+
+        <div class="case-prose">
+          <h2>Problem &amp; context</h2>
+          <p>
+            Dozens of internal applications had diverged into local pattern libraries and
+            one-off components. Employees felt the seams when switching tools; designers
+            sank an outsized share of time into rebuilding the same tables, filters, and
+            empty states; engineers shipped duplicate React and non-React implementations;
+            onboarding was slow because “how we build UI here” lived in tribal knowledge.
+            Accessibility debt compounded because there was no shared baseline—teams
+            re-solved the same WCAG gaps in isolation.
+          </p>
+
+          <div class="pull">
+            <p>
+              The product goal was not a bigger sticker sheet—it was a <strong>single,
+              enforceable source of truth</strong> that made reuse faster than
+              improvisation for both design and engineering.
+            </p>
+          </div>
+
+          <h2>Role &amp; responsibilities</h2>
+          <ul>
+            <li>
+              I owned strategy, roadmap, and the business case—framing the system as
+              throughput for product teams, not decoration.
+            </li>
+            <li>
+              I led the cross-program effort across <strong>20+ apps</strong>,
+              <strong>15+ product teams</strong>, and <strong>React, Angular, and legacy
+              surfaces</strong>—so the system had to be honest about incremental adoption.
+            </li>
+            <li>
+              I defined architecture and governance: how tokens, primitives, and
+              contributions moved from proposal → review → release without bottling
+              innovation.
+            </li>
+            <li>
+              With engineering leadership, I shaped a <strong>React reference
+              library</strong> with API parity to design specs—the contract other stacks
+              could align to over time.
+            </li>
+            <li>
+              I ran adoption work end to end: office hours, critiques, training tracks, and
+              lightweight scorecards so we measured <strong>time saved and defect
+              reduction</strong>, not component counts alone.
+            </li>
+            <li>
+              I drove accessibility as a default: <strong>WCAG 2.1 AA expectations</strong>
+              embedded in component acceptance criteria and review checklists—supporting the
+              compliance lift reported in outcomes.
+            </li>
+          </ul>
+
+          <h2>Constraints</h2>
+          <ul>
+            <li>Support legacy applications while enabling new development.</li>
+            <li>Multiple stacks: React, Angular, and legacy systems.</li>
+            <li>Diverse team skill levels and design maturity.</li>
+            <li>Limited resources for long-term maintenance and updates.</li>
+            <li>Backward compatibility during migration.</li>
+            <li>Balancing flexibility vs. consistency across use cases.</li>
+          </ul>
+
+          <h2>Research &amp; insights</h2>
+          <ul>
+            <li>
+              I audited live UI across internal platforms and catalogued duplicate patterns
+              and variant sprawl.
+            </li>
+            <li>
+              I interviewed <strong>40+ designers and engineers</strong> and synthesized
+              recurring pain into three themes: <strong>handoff ambiguity</strong> (states,
+              spacing, responsive rules), <strong>reuse without guardrails</strong> (every
+              team’s “special” table), and <strong>review fatigue</strong> (Figma and
+              production drifting apart).
+            </li>
+            <li>
+              I benchmarked public systems (e.g. Material, Carbon, Polaris) and studied
+              adoption models at companies like Airbnb, IBM, and Shopify for governance
+              patterns we could adapt—not copy wholesale.
+            </li>
+            <li>
+              I facilitated workshops with PMs and tech leads to stack-rank primitives vs.
+              “nice-to-have” patterns against roadmap pressure.
+            </li>
+            <li>
+              I aligned accessibility work to <strong>WCAG 2.1</strong> expectations and
+              internal enterprise requirements before scaling components.
+            </li>
+          </ul>
+
+          <h2>Design process</h2>
+          <ol>
+            <li>Cross-platform audit of patterns, tokens-in-name-only debt, and hotspots.</li>
+            <li>Published design principles and a pragmatic system architecture.</li>
+            <li>
+              Landed a <strong>token system</strong> for color, typography, spacing, and
+              elevation—the spine every later component hung from.
+            </li>
+            <li>Designed foundational components (buttons, inputs, navigation, tables).</li>
+            <li>Extended into complex patterns (forms, data visualization, modals).</li>
+            <li>
+              Shipped documentation with live examples and “do / don’t” guidance—not only
+              static specs.
+            </li>
+            <li>Co-designed React component APIs, states, and props with engineering.</li>
+            <li>
+              Ran <strong>three concurrent pilots</strong> with product teams on
+              high-traffic internal workflows; we promoted only what survived real backlog
+              pressure.
+            </li>
+            <li>Opened contribution guidelines with quality bars and review owners.</li>
+            <li>Established semantic versioning and predictable release cadence.</li>
+          </ol>
+
+          <div class="decision-callout" data-reveal>
+            <h3>Key decisions</h3>
+            <ul class="decision-callout-list">
+              <li>
+                <strong>Primitives and contribution gates first</strong> — We sequenced
+                tokens + core components with enforced review before chasing parity with
+                every bespoke legacy widget.
+              </li>
+              <li>
+                <strong>React as the reference implementation</strong> — One opinionated
+                library with API parity to specs so Angular and legacy consumers could
+                migrate in slices instead of waiting for a big bang.
+              </li>
+              <li>
+                <strong>Pilot-first mandate, not slide-first</strong> — Three teams shipped
+                production flows on the system before we asked the wider org to retime
+                roadmaps around adoption.
+              </li>
+            </ul>
+            <p class="decision-rationale">
+              Each call traded short-term applause for long-term leverage: fewer
+              one-off components, less ambiguous handoff, and proof that the system survived
+              real release trains—not only critique rooms.
+            </p>
+          </div>
+
+          <h2>How I worked with engineering &amp; product</h2>
+          <ul class="collab-list">
+            <li>
+              I paired on naming, props, and state matrices so components reflected service
+              reality—not only static frames.
+            </li>
+            <li>
+              I ran joint critiques with tech leads on accessibility and performance for
+              dense enterprise tables.
+            </li>
+            <li>
+              I negotiated <strong>migration slices</strong> with PMs so adoption shipped
+              as roadmap increments instead of vapor “UI refresh” promises.
+            </li>
+          </ul>
+
+          <div class="failure-panel" data-reveal>
+            <h3>What we explicitly de-prioritized</h3>
+            <p>
+              After the audit and token foundation landed, we still said <strong>no</strong>
+              to an exhaustive illustration system and marketing-site-level polish for
+              internal tools—real requests, but they would have starved the primitives that
+              unlocked reuse. That sequencing matched the pilot plan in step 8: prove value
+              on high-traffic flows before expanding surface area.
+            </p>
+          </div>
+
+          <h2>What shipped</h2>
+          <p>
+            A unified internal kit: <strong>60+ components</strong>, token-driven theming,
+            a Figma library, a React library with documented APIs, contribution paths, and
+            release hygiene. Acceptance for net-new components explicitly referenced
+            <strong>WCAG 2.1 AA</strong> expectations so accessibility advanced with the
+            library—not as a downstream audit scramble.
+          </p>
+
+          <h2>Outcomes</h2>
+          <p>
+            The figures below blend <strong>program-level tracking</strong> (adoption
+            surveys, quarterly efficiency pulses, design–dev cycle reviews) with
+            <strong>engineering rollups</strong> where noted. They reflect directional impact
+            across the internal platform footprint rather than a single product line.
+          </p>
+          <div class="metrics-row">
+            <div class="metric-card">
+              <strong>40%</strong>
+              improved design and engineering efficiency across teams
+            </div>
+            <div class="metric-card">
+              <strong>50%</strong>
+              reduction in design-to-development handoff time
+            </div>
+            <div class="metric-card">
+              <strong>85%</strong>
+              adoption across internal platform teams within six months
+            </div>
+            <div class="metric-card">
+              <strong>15+</strong>
+              product teams shipping features faster with shared patterns
+            </div>
+            <div class="metric-card">
+              <strong>70%</strong>
+              reduction in duplicated components
+            </div>
+            <div class="metric-card">
+              <strong>60% → 95%</strong>
+              accessibility compliance across products
+            </div>
+            <div class="metric-card">
+              <strong>60%</strong>
+              faster onboarding for new designers and engineers
+            </div>
+            <div class="metric-card">
+              <strong>10,000+</strong>
+              engineering hours saved annually (engineering estimate) through reuse
+            </div>
+          </div>
+
+          <h2>Learnings</h2>
+          <ul>
+            <li>
+              Foundations and documentation beat a maximal catalog for earning trust early.
+            </li>
+            <li>
+              Governance only works when it is faster to comply than to route around—pair
+              process with tooling and eng hooks.
+            </li>
+            <li>
+              Adoption is a product problem: pilots, training, and visible wins beat mandate
+              slides.
+            </li>
+            <li>
+              Measure outcomes teams feel (handoff time, defects, onboarding), not vanity
+              component counts.
+            </li>
+            <li>
+              Co-own APIs with engineering from day one—your “system” is whatever ships in
+              npm, not only Figma.
+            </li>
+          </ul>
+        </div>
+
+        <nav class="case-nav" aria-label="Case study pagination">
+          <a href="../index.html#work">
+            <span class="case-nav-label">Previous</span>
+            All work
+          </a>
+          <a href="store-performance-platform.html">
+            <span class="case-nav-label">Next</span>
+            Store performance platform →
+          </a>
+        </nav>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">Thanushree Uppoor</p>
+          <p class="footer-tag">Case study · Enterprise design system</p>
+        </div>
+        <div class="footer-meta">
+          <p>© <span data-year></span></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+  </body>
+</html>
